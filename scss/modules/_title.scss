@@ -1,0 +1,19 @@
+.title {
+    margin-top: 45px;
+
+    h1,
+    h2 {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    h1 {
+        @include font("Gotham-Light", 62px, black, normal);
+        text-transform: uppercase;
+    }
+    h2 {
+        @include font("Gotham-Light", 20px, black, normal);
+        width: 60%;
+    }
+}
+

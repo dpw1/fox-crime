@@ -1,0 +1,10 @@
+footer{
+    margin-bottom: 40px;
+    p{
+        text-align: center;
+        @include font("Gotham-Light", 14px, black, normal);
+        a{
+            text-decoration: underline;
+        }
+    }
+}
